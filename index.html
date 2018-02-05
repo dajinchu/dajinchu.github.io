@@ -1,3 +1,7 @@
+--- 
+# This comment is REQUIRED to ensure Jekyll properly reads file. 
+--- 
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -16,8 +20,8 @@
     <meta property="og:description" content="Portfolio Website">
     <meta property="og:type" content="website">
     <meta property="og:url" content="">
-    
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Source+Serif+Pro" rel="stylesheet"> 
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Source+Serif+Pro" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <!--[if lt IE 9]>
@@ -33,24 +37,116 @@
             <h1>Hello, I'm Da-Jin.</h1>
             <h1>I'm a student, developer, and all around geek.</h1>
         </header>
-        
-        <!-- About -->
-        <section>
-            <div class="sectionLabel">About Me</div>
-            
-            <div class="sectionContent">
-                <p>
-                    I'm a first year computer science student at Northeastern University, and I expect to graduate in 2021. 
-                    I've enjoyed working as a software engineering intern at the MITRE Corporation for several years, and I will be pursuing further experience through Northeastern's co-op program and my own personal projects.
-                </p>
-                <p>
-                    I chose to become an engineer because it's a concrete way to make people's lives better. I love seeing the difference that I can make for others, as well as the technical challenges of problem solving. 
-                </p>
-                <p>
-                    Recently I've been focusing on web development, streamlining software for psychology research, and designing programming languages. Outside of programming, my interests include photography, quadcopters, Kanye West, and breakfast.
-                </p>
-            </div>
-        </section>
+
+        <div id="content">
+            <!-- About -->
+            <section>
+                <div class="sectionLabel">About Me</div>
+
+                <div class="sectionContent">
+                    <p>
+                        I'm a first year computer science student at Northeastern University, and I expect to graduate in 2021. I enjoyed working as a software engineering intern at the MITRE Corporation for several years, and I will be pursuing further experience through Northeastern's
+                        co-op program and my own personal projects.
+                    </p>
+                    <p>
+                        I chose to become an engineer because it's a concrete way to make people's lives better, and I love seeing the difference that I can make for others, as well as the technical challenges of problem solving.
+                    </p>
+                    <p>
+                        Recently I've been focusing on web development, streamlining software for psychology research, and designing programming languages. Outside of programming, my interests include photography, quadcopters, Kanye West, and breakfast.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Work Experience -->
+            <section>
+                <div class="sectionLabel">Work Experience</div>
+
+                <div class="sectionContent">
+                    <div class="jobInfo">
+                        <div class="companyInfoRow">
+                            <div class="primaryInfo">
+                                MITRE Corporation
+                            </div>
+                            <div class="secondaryInfo">
+                                Bedford, MA
+                            </div>
+                        </div>
+                        <div class="companyInfoRow">
+                            <div class="primaryInfo">
+                                Prototyping and Systems Engineering Intern
+                            </div>
+                            <div class="secondaryInfo">
+                                Summer 2017
+                            </div>
+                        </div>
+                        <p>
+Lead the development of an interactive map to monitor the GPS satellite constellation in real time. 
+Clients primarily included the U.S Air Force and internal MITRE departments.
+Reduced page load time to less than 200ms and shrank page size by an order of magnitude.
+Revamped the UI and performance for CNVRG, an exploration and visualization tool for GPS signal data.
+                        </p>
+                        <div class="skillRow">
+                            <div>Java</div>
+                            <div>Apache Tomcat</div>
+                            <div>Javascript</div>
+                            <div>JQuery</div>
+                            <div>Leaflet</div>
+                            <div>HTML</div>
+                            <div>MySQL</div>
+                            <div>AngularJS</div>
+                        </div>
+                        <div class="companyInfoRow">
+                            <div class="primaryInfo">
+                                Summer Software Intern
+                            </div>
+                            <div class="secondaryInfo">
+                                Summer 2016
+                            </div>
+                        </div>
+                        <p>
+Worked on Cedar, a tool that helps evaluate the validity of electronic clinical quality measures for organizations such as State Medicaid Agencies and Health Information Exchanges. 
+Directed the transition to test driven development, implemented a RESTful JSON API, and improved usability.
+                        </p>
+                        <div class="skillRow">
+                            <div>Ruby on Rails</div>
+                            <div>MongoDB</div>
+                            <div>Javascript</div>
+                            <div>JQuery</div>
+                            <div>HTML</div>
+                            <div>Bootstrap</div>
+                            <div>JSON</div>
+                        </div>
+                    </div>
+                    <div class="jobInfo">
+                        <div class="companyInfoRow">
+                            <div class="primaryInfo">
+                                EDot Calculator
+                            </div>
+                            <div class="secondaryInfo">
+                                Worcester, MA
+                            </div>
+                        </div>
+                        <div class="companyInfoRow">
+                            <div class="primaryInfo">
+                                Prototype Developer
+                            </div>
+                            <div class="secondaryInfo">
+                                October 2016 - March 2017
+                            </div>
+                        </div>
+                        <p>
+Designed prototypes for a handheld calculator that helps people with disabilities understand decimal points.
+Worked closely with the founder, a special education teacher, to tailor the prototype for her students.
+                        </p>
+                        <div class="skillRow">
+                            <div>Arduino</div>
+                            <div>3D Printing</div>
+                            <div>SolidWorks</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
     <script src="assets/js/script.js"></script>
 </body>
