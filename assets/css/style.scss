@@ -38,6 +38,10 @@ body {
     color: $greyFontColor;
 }
 
+%materialShadow {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
 #topBackground {
     background-color: $topColor;
     position: absolute;
@@ -74,13 +78,14 @@ h1, h2, header {
 
 section {
     max-width: 1080px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 .sectionLabel {
-    width: 300px;
+    flex: 0 0 250px;
     padding-right: 50px;
     text-align: right;
     text-transform: uppercase;
@@ -88,14 +93,20 @@ section {
     letter-spacing: .15rem;
     color: $accentColor;
 }
+.sectionContent {
+    flex-grow: 1;
+}
 .sectionContent p{
     margin-top: 0;
     margin-bottom:20px;
     font-weight: 300;
 }
 
-.jobInfo{
+.sectionContent .jobInfo{
     margin-bottom:100px;
+}
+.sectionContent .jobInfo:last-child {
+    margin-bottom: 0;
 }
 .companyInfoRow {
     display: flex;
@@ -114,7 +125,6 @@ section {
 .skillRow {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 15px;
     div {
         border: 1px solid $accentColor;
         border-radius: 5px;
@@ -126,5 +136,53 @@ section {
         font-size: .7rem;
         text-transform: uppercase;
         color: $greyFontColor;
+    }
+}
+
+
+
+.projectContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0px -8px;
+}
+.project{
+    flex-basis: 400px;
+    background: white;
+    margin: 0px 8px 32px 8px;
+    @extend %materialShadow;
+    .projectImage{
+        max-width:100%;
+        max-height:100%;
+    }
+    .projectContent{
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .projectBar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .projectTitle {
+        flex-grow: 1;
+        font-size: 1.7rem;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .projectBar img {
+        width: 32px;
+        height: 32px;
+        margin-left: 16px;
+    }
+    .projectDescription {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        margin: 0;
     }
 }
