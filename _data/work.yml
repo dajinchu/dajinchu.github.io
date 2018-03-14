@@ -1,0 +1,32 @@
+- company: MITRE Corporation
+  location: Bedford, MA
+  positions:
+      - role: Prototyping and Systems Engineering Intern
+        year: Summer 2017
+        description: >
+            Lead the development of an interactive map to monitor the GPS satellite constellation in real time.
+            Clients primarily included the U.S Air Force and internal MITRE departments.
+            Reduced page load time to less than 200ms and shrank page size by an order of magnitude.
+            Revamped the UI and performance for CNVRG, an exploration and visualization tool for GPS signal data.
+        skills:
+            - Java
+            - Apache Tomcat
+            - Javascript
+            - JQuery
+            - Leaflet
+            - HTML
+            - MySQL
+            - AngularJS
+      - role: Summer Software Intern
+        year: Summer 2016
+        description: >
+            Worked on Cedar, a tool that helps evaluate the validity of electronic clinical quality measures for organizations such as State Medicaid Agencies and Health Information Exchanges.
+            Directed the transition to test driven development, implemented a RESTful JSON API, and improved usability.
+        skills:
+            - Ruby on Rails
+            - MongoDB
+            - Javascript
+            - JQuery
+            - HTML
+            - Bootstrap
+            - JSON
