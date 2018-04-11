@@ -7,14 +7,22 @@
       - Android
       - Google Cloud Platform
       - Python
-- title: Sandbox Calculator
-  image: sandboxframed.png
-  github: https://github.com/dajinchu/apps-for-good
-  link: https://github.com/dajinchu/apps-for-good
-  description: Sandbox is a experimental calculator that uses gestures to overhaul math on mobile devices. Sandbox has all the features of any other calculator, plus the ability to drag numbers around, lasso select, and edit multiple equations at once.
+- title: Psychology Research
+  image: spam.png
+  github: https://github.com/dajinchu/word-similarity
+  link: /word-similarity
+  description: I built software to enable psychology researchers to collect experimental data on word similarity using the Spatial Arrangement Method. It is being rolled out to several labs.
   skills:
-      - Android
-      - LibGDX
+      - HTML
+      - Javascript
+      - JQuery
+      - KonvaJS
+- title: Battlecode
+  image: battlecode.png
+  github: https://github.com/dajinchu/battlecode18
+  description: A couple of friends and I placed top 24 in Battlecode, an MIT-run competition where each team writes an AI player to compete head to head in a real-time strategy game.
+  skills:
+      - Python
 - title: Log Frog
   image: logfrogframed.png
   github: https://github.com/dajinchu/LogFrog
@@ -23,12 +31,14 @@
   skills:
       - Android
       - LibGDX
-- title: Teaching CAD
-  image: tripodCAD.png
-  description: I taught the basics of Solidworks 3D modeling to elementary school kids at an inner city school in Worcester, Massachusetts.
+- title: Sandbox Calculator
+  image: sandboxframed.png
+  github: https://github.com/dajinchu/apps-for-good
+  link: https://github.com/dajinchu/apps-for-good
+  description: Sandbox is a experimental calculator that uses gestures to overhaul math on mobile devices. Sandbox has all the features of any other calculator, plus the ability to drag numbers around, lasso select, and edit multiple equations at once.
   skills:
-      - Solidworks
-      - Teaching
+      - Android
+      - LibGDX
 - title: EDot Calculator
   image: edot.png
   github: https://github.com/dajinchu/edot-calculator
@@ -37,3 +47,9 @@
       - Arduino
       - 3D Printing
       - SolidWorks
+- title: Teaching CAD
+  image: tripodCAD.png
+  description: I taught the basics of Solidworks 3D modeling to elementary school kids at an inner city school in Worcester, Massachusetts.
+  skills:
+      - Solidworks
+      - Teaching
