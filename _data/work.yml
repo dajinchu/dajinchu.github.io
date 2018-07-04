@@ -1,3 +1,21 @@
+- company: RSA Security
+  location: Bedford, MA
+  positions:
+      - role: Sales Engineering Intern
+        year: Summer 2018
+        description: >
+            Worked in technical sales enablement as a software engineer to provide our sales engineers with the tools and training to sell more effectively.
+            Developed an enterprise-wide search system to overhaul how employees find what they need.
+            Built an interactive scoreboard for a product training event, boosting engagement and retention for our sales engineers.
+        skills:
+            - Elasticsearch
+            - Apache Tika
+            - Python
+            - NodeJS
+            - Redis 
+            - Javascript
+            - ReactJS
+            - HTML
 - company: MITRE Corporation
   location: Bedford, MA
   positions:
