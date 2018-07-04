@@ -1,4 +1,4 @@
-I'm a first year computer science student at Northeastern University, and I expect to graduate in 2021. I enjoyed working as a software engineering intern at the MITRE Corporation for several years, and I will be pursuing further experience through Northeastern's
+I'm a first year computer science student at Northeastern University, and I expect to graduate in 2021. I enjoyed working as a software engineering intern at the MITRE Corporation and at RSA Security for several years, and I will be pursuing further experience through Northeastern's
 co-op program and my own personal projects.
 
 
