@@ -91,17 +91,19 @@ h1, h2, header {
     @media screen and (max-width: 500px) {
         font-size: 1.5rem;
     }
-    @media screen and (max-width: 360px) {
-        font-size: 1.25rem;
-    }
 }
 
 section {
     max-width: 720px;
     padding-top: 100px;
     padding-bottom: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 0px 50px;
+    @media screen and (max-width: 500px) {
+        margin: 0px 30px;
+    }
+    @media screen and (max-width: 360px) {
+        margin: 0px 15px;
+    }
 }
 .sectionLabel {
     text-transform: uppercase;
