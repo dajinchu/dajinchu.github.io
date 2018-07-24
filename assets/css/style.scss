@@ -13,6 +13,9 @@ $accentColor: #D50000;
 $sans-serif: 'Open Sans', sans-serif;
 $serif: 'Source Serif Pro', serif;
 
+
+$small-card: "screen and (max-width: 840px)";
+
 body,html {
     margin: 0;
     padding: 0;
@@ -60,8 +63,17 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 100px;
     font-family: $serif;
+    padding: 100px;
+    @media screen and (max-width: 720px) {
+        padding: 70px;
+    }
+    @media screen and (max-width: 500px) {
+        padding: 50px;
+    }
+    @media screen and (max-width: 360px) {
+        padding: 30px;
+    }
 }
 
 #content{
@@ -73,6 +85,15 @@ body {
 h1, h2, header {
     font-size: 2.5rem;
     @extend %boldText;
+    @media screen and (max-width: 720px) {
+        font-size: 2rem;
+    }
+    @media screen and (max-width: 500px) {
+        font-size: 1.5rem;
+    }
+    @media screen and (max-width: 360px) {
+        font-size: 1.25rem;
+    }
 }
 
 section {
@@ -126,8 +147,8 @@ section {
         border-radius: 5px;
         
         padding: 5px 10px;
-        margin-right: 15px;
-        margin-bottom: 10px;
+        margin-right: 5px;
+        margin-bottom: 5px;
 
         font-size: .7rem;
         text-transform: uppercase;
@@ -139,26 +160,38 @@ section {
 
 .projectContainer {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
     margin: 0px -8px;
+    @media #{$small-card} {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 .project{
-    flex-basis: 400px;
     background: white;
     margin: 0px 8px 32px 8px;
     @extend %materialShadow;
+    display: flex;
+    flex-direction: row;
+    @media #{$small-card} {
+        flex-direction: column;
+        flex-basis: 250px;
+        flex-grow: 1;
+    }
     .projectImage{
-        max-width:100%;
-        max-height:100%;
+        max-width: 100%;
+        flex-basis: 256px;
     }
     .projectContent{
+        flex: 1 0 300px;
         padding-left: 16px;
         padding-right: 16px;
         padding-top: 8px;
         padding-bottom: 8px;
+        @media #{$small-card} {
+            flex-basis: auto;
+        }
     }
     .projectBar {
         display: flex;
