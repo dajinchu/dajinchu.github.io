@@ -104,7 +104,9 @@
           <div class="sectionContent projectContainer">
             {% for project in site.data.projects %}
               <div class="project">
-                <img class="projectImage" src="assets/img/{{ project.image }}">   </img>
+                <div class="projectImageContainer">
+                  <img class="projectImage" src="assets/img/{{ project.image }}">   </img>
+                </div>
                 <div class="projectContent">
                   <div class="projectBar">
                     <div class="projectTitle">

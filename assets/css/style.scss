@@ -179,9 +179,12 @@ section {
         flex-basis: 250px;
         flex-grow: 1;
     }
-    .projectImage{
-        max-width: 100%;
+    .projectImageContainer{
         flex-basis: 256px;
+    }
+    .projectImage{
+        width: 100%;
+        display: block;
     }
     .projectContent{
         flex: 1 0 300px;
