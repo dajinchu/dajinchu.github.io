@@ -112,16 +112,6 @@
                     <div class="projectTitle">
                       {{ project.title }}
                     </div>
-                    {% if project.github %}
-                      <a href="{{ project.github }}" target="_blank">
-                        <img src="assets/img/github.png"></img>
-                      </a>
-                    {% endif %}
-                    {% if project.link %}
-                      <a href="{{ project.link }}" target="_blank">
-                        <img src="assets/img/link.png"></img>
-                      </a>
-                    {% endif %}
                   </div>
                   <p class="projectDescription">
                     {{ project.description }}
@@ -131,6 +121,18 @@
                       <div>{{ skill }}</div>
                     {% endfor %}
                   </div>
+                  <!--
+                  {% if project.github %}
+                      <a href="{{ project.github }}" target="_blank">
+                        <img src="assets/img/github.png"></img>
+                      </a>
+                    {% endif %}
+                    {% if project.link %}
+                      <a href="{{ project.link }}" target="_blank">
+                        <img src="assets/img/link.png"></img>
+                      </a>
+                    {% endif %}
+                    -->
                 </div>
               </div>
             {% endfor %}
