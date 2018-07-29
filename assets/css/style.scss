@@ -180,12 +180,14 @@ section {
         flex-direction: column;
         flex: 1 0 250px;
     }
-    .projectImageContainer{
+    .projectImage{
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
         flex-basis: 256px;
     }
-    .projectImage{
-        width: 100%;
-        display: block;
+    .cover {
+        background-size: cover;
     }
     .projectContent{
         flex: 1 0 300px;

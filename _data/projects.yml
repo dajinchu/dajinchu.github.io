@@ -1,5 +1,6 @@
 - title: Dog Detective
   image: dogframed.png
+  color: 375373
   github: https://github.com/talusvyatsky/dog-detective
   link: https://www.huntnewsnu.com/2018/02/hack-beanpot-inspires-innovation/
   description: With Dog Detective, you can find and pet all the dogs in your neighborhood. By crowdsourcing the locations of nearby dogs, Dog Detective makes sure that you'll never miss a good dog ever again.
@@ -9,6 +10,7 @@
       - Python
 - title: Psychology Research
   image: spam.png
+  color: 5C6BC0
   github: https://github.com/dajinchu/word-similarity
   link: /word-similarity
   description: I built software to enable psychology researchers to collect experimental data on word similarity using the Spatial Arrangement Method. It is being rolled out to several labs.
@@ -25,6 +27,7 @@
       - Python
 - title: Log Frog
   image: logfrogframed.png
+  color: 4CAF50
   github: https://github.com/dajinchu/LogFrog
   link: https://play.google.com/store/apps/details?id=com.gmail.dajinchu.logfrog
   description: Log Frog is a digital remake of the old ThinkFun River Crossing logic game. It's a simple little puzzle where players rearrange planks to get to the other side.
@@ -33,6 +36,7 @@
       - LibGDX
 - title: Sandbox Calculator
   image: sandboxframed.png
+  color: F24E24
   github: https://github.com/dajinchu/apps-for-good
   link: https://github.com/dajinchu/apps-for-good
   description: Sandbox is a experimental calculator that uses gestures to overhaul math on mobile devices. Sandbox has all the features of any other calculator, plus the ability to drag numbers around, lasso select, and edit multiple equations at once.
@@ -41,6 +45,7 @@
       - LibGDX
 - title: EDot Calculator
   image: edot.png
+  color: F58790
   github: https://github.com/dajinchu/edot-calculator
   description: A friend and I worked with a special needs teacher at Worcester Public Schools to develop EDot, a handheld calculator and iOS app designed to assist people with special needs understand decimal points.
   skills:
@@ -49,6 +54,7 @@
       - SolidWorks
 - title: Teaching CAD
   image: tripodCAD.png
+  color: 009688
   description: I taught the basics of Solidworks 3D modeling to elementary school kids at an inner city school in Worcester, Massachusetts.
   skills:
       - Solidworks
