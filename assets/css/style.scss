@@ -165,21 +165,16 @@ section {
     flex-direction: column;
     justify-content: space-between;
     margin: 0px -8px;
-    @media #{$small-card} {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .project{
     background: white;
     margin: 0px 8px 32px 8px;
     @extend %materialShadow;
     display: flex;
-    flex-direction: row;
-    @media #{$small-card} {
-        flex-direction: column;
-        flex: 1 0 250px;
-    }
+    flex-direction: column;
+    flex: 1 0 300px;
     .projectImage{
         background-size: contain;
         background-repeat: no-repeat;
@@ -190,14 +185,11 @@ section {
         background-size: cover;
     }
     .projectContent{
-        flex: 1 0 300px;
+        flex: 1 0;
         padding-left: 16px;
         padding-right: 16px;
         padding-top: 8px;
         padding-bottom: 8px;
-        @media #{$small-card} {
-            flex-basis: auto;
-        }
     }
     .projectBar {
         display: flex;
