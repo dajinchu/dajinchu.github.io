@@ -4,9 +4,10 @@
       - role: Sales Engineering Intern
         year: Summer 2018
         description: >
-            Worked in technical sales enablement as a software engineer to provide our sales engineers with the tools and training to sell more effectively.
-            Developed an enterprise-wide search system to overhaul how employees find what they need.
-            Built an interactive scoreboard for a product training event, boosting engagement and retention for our sales engineers.
+            I worked as a software engineer to provide our sales engineers with the tools to sell more effectively.
+            My primary project was to develop an enterprise-wide search system to overhaul how employees find what they need.
+            I designed a system that crawls all of our existing sites and servers, indexes all documents, and exposes a single faceted search to find any internal resource.
+            I also built an interactive scoreboard for a product training event, boosting engagement and retention for our sales engineers.
         skills:
             - Elasticsearch
             - Apache Tika
@@ -22,10 +23,9 @@
       - role: Prototyping and Systems Engineering Intern
         year: Summer 2017
         description: >
-            Lead the development of an interactive map to monitor the GPS satellite constellation in real time.
-            Clients primarily included the U.S Air Force and internal MITRE departments.
-            Reduced page load time to less than 200ms and shrank page size by an order of magnitude.
-            Revamped the UI and performance for CNVRG, an exploration and visualization tool for GPS signal data.
+            I worked in GPS modernization, a project funded by the U.S. Air Force to provide tools to enable the next generation of GPS satellites and protocols.
+            I lead the development of an interactive map to monitor the health of the GPS satellite constellation in real time and reduced the page load time of one of our sites to less than 200ms and shrank page size by an order of magnitude.
+            I also revamped the UI and performance for CNVRG, an exploration and visualization tool for GPS signal data.
         skills:
             - Java
             - Apache Tomcat
@@ -38,8 +38,9 @@
       - role: Summer Software Intern
         year: Summer 2016
         description: >
-            Worked on Cedar, a tool that helps evaluate the validity of electronic clinical quality measures for organizations such as State Medicaid Agencies and Health Information Exchanges.
-            Directed the transition to test driven development, implemented a RESTful JSON API, and improved usability.
+            I worked in Open Health Services, a department contracted by the Centers for Medicare and Medicaid Services to revamp health IT. 
+            I contributed to Cedar, a tool that helps evaluate the validity of electronic health records for organizations such as State Medicaid Agencies and Health Information Exchanges.
+            I directed Cedar's transition to test driven development, implemented a RESTful JSON API, and improved usability.
         skills:
             - Ruby on Rails
             - MongoDB
