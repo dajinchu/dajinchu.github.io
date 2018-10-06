@@ -207,12 +207,19 @@ section {
 }
 
 
-.contactList {
+.links {
     width: 100%;
-    text-align: center;
-    span {
-        display: inline-block;
-        text-align: left;
-        margin: 0px 16px;
+    display: flex;
+    justify-content: space-around;
+    padding-top:50px;
+    padding-bottom:75px;
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #555;
+        &:hover{
+            color: $accentColor;
+        }
     }
 }
