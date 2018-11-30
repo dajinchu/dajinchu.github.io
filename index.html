@@ -40,7 +40,7 @@
     </script>
     <script src="assets/js/script.js"></script>
     <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
   </head>
 
@@ -110,43 +110,13 @@
 
           <div class="sectionContent projectContainer">
             {% for project in site.data.projects %}
-              <div class="project">
-                {% if project.color %}
-                  <div style="background-color: #{{ project.color }}; background-image: url(assets/img/{{ project.image }})" class="projectImage">
-                </div>
-                {% else %}
-                  <div style="background-image: url(assets/img/{{ project.image }})" class="projectImage cover">
-                  </div>
-                {% endif %}
-                  
-                <div class="projectContent">
-                  <div class="projectBar">
-                    <div class="projectTitle">
-                      {{ project.title }}
-                    </div>
-                  </div>
-                  <p class="projectDescription">
-                    {{ project.description }}
-                  </p>
-                  <div class="skillRow">
-                    {% for skill in project.skills %}
-                      <div>{{ skill }}</div>
-                    {% endfor %}
-                  </div>
-                  <!--
-                  {% if project.github %}
-                      <a href="{{ project.github }}" target="_blank">
-                        <img src="assets/img/github.png"></img>
-                      </a>
-                    {% endif %}
-                    {% if project.link %}
-                      <a href="{{ project.link }}" target="_blank">
-                        <img src="assets/img/link.png"></img>
-                      </a>
-                    {% endif %}
-                    -->
-                </div>
-              </div>
+              {% if project.link %}
+                <a href={{ project.link }} class="linkWrapper">
+                  {% include project.html project=project %}
+                </a>
+              {% else %}
+                {% include project.html project=project %}
+              {% endif %}
             {% endfor %}
           </div>
         </section>

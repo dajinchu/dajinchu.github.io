@@ -1,0 +1,25 @@
+<div class="project">
+  {% if project.color %}
+    <div style="background-color: #{{ project.color }}; background-image: url(assets/img/{{ project.image }})" class="projectImage">
+    </div>
+  {% else %}
+    <div style="background-image: url(assets/img/{{ project.image }})" class="projectImage cover">
+    </div>
+  {% endif %}
+
+  <div class="projectContent">
+    <div class="projectBar">
+      <div class="projectTitle">
+        {{ project.title }}
+      </div>
+    </div>
+    <p class="projectDescription">
+      {{ project.description }}
+    </p>
+    <div class="skillRow">
+      {% for skill in project.skills %}
+        <div>{{ skill }}</div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
