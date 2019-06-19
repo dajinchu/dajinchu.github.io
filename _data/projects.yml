@@ -1,5 +1,5 @@
 - title: Sandbox Website
-  image: dogframed.png
+  image: sandboxneu.jpg
   link: https://www.sandboxneu.com
   description:
     I collaborated with five developers and a designer to design and implement the Sandbox public facing website. We
@@ -21,7 +21,8 @@
     - Expressjs
     - Figma
 - title: Empathic Accuracy
-  image: dogframed.png
+  image: empathic.png
+  color: 7E57C2
   link: https://empathic.sandboxneu.com
   description:
     As part of Sandbox, the student organization I founded, I worked with three other students to build a web app for a
@@ -100,6 +101,7 @@
 - title: Teaching CAD
   image: tripodCAD.png
   color: 009688
+  link: h
   description:
     I taught the basics of Solidworks 3D modeling to elementary school kids at an inner city school in Worcester,
     Massachusetts.
