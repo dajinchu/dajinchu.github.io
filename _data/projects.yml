@@ -1,63 +1,108 @@
+- title: Sandbox Website
+  image: dogframed.png
+  link: https://www.sandboxneu.com
+  description:
+    I collaborated with five developers and a designer to design and implement the Sandbox public facing website. We
+    designed it meticulously to make a great impression on students and researchers encountering a brand for the first
+    time.
+  skills:
+    - GatsbyJS
+    - Styled-components
+    - Figma
+- title: SearchTRACE
+  image: trace.png
+  link: https://trace.dajinchu.now.sh/
+  description:
+    At HackDartmouth, three Sandbox members and I built a site for Northeastern students to explore the official course
+    evaluation data and make informed choices during course selection. Won the Design Award.
+  skills:
+    - elasticsearch
+    - React
+    - Expressjs
+    - Figma
+- title: Empathic Accuracy
+  image: dogframed.png
+  link: https://empathic.sandboxneu.com
+  description:
+    As part of Sandbox, the student organization I founded, I worked with three other students to build a web app for a
+    Yale researcher studying how accurately subjects could empathize with someone depicted in a video.
+  skills:
+    - React
+    - Expressjs
+- title: Spatial Arrangement
+  image: spam.png
+  color: 5C6BC0
+  github: https://github.com/dajinchu/word-similarity
+  link: /word-similarity
+  description:
+    I built software to enable psychology researchers to collect experimental data on word similarity using the Spatial
+    Arrangement Method. It is being rolled out to several labs.
+  skills:
+    - HTML
+    - Javascript
+    - JQuery
+    - KonvaJS
 - title: Dog Detective
   image: dogframed.png
   color: 375373
   github: https://github.com/talusvyatsky/dog-detective
   link: https://github.com/talusvyatsky/dog-detective
-  description: At HackBeanpot, I made Dog Detective, an app for dog lovers to find and pet all the dogs. By crowdsourcing the locations of nearby dogs, Dog Detective makes sure that no one misses a good dog ever again.
+  description:
+    At HackBeanpot, I made Dog Detective, an app for dog lovers to find and pet all the dogs. By crowdsourcing the
+    locations of nearby dogs, Dog Detective makes sure that no one misses a good dog ever again.
   skills:
-      - Android
-      - GCP
-      - Python
-- title: Psychology Research
-  image: spam.png
-  color: 5C6BC0
-  github: https://github.com/dajinchu/word-similarity
-  link: /word-similarity
-  description: I built software to enable psychology researchers to collect experimental data on word similarity using the Spatial Arrangement Method. It is being rolled out to several labs.
-  skills:
-      - HTML
-      - Javascript
-      - JQuery
-      - KonvaJS
+    - Android
+    - GCP
+    - Python
 - title: Battlecode
   image: battlecode.png
   github: https://github.com/dajinchu/battlecode18
   link: https://github.com/dajinchu/battlecode18
-  description: A couple of friends and I placed top 24 in Battlecode, an MIT-run competition where each team writes an AI player to compete head to head in a real-time strategy game. I loved getting to put algorithms I learned in class to use.
+  description:
+    A couple of friends and I placed top 24 in Battlecode, an MIT-run competition where each team writes an AI player to
+    compete head to head in a real-time strategy game. I loved getting to put algorithms I learned in class to use.
   skills:
-      - Python
+    - Python
 - title: Log Frog
   image: logfrogframed.png
   color: 4CAF50
   github: https://github.com/dajinchu/LogFrog
   link: https://play.google.com/store/apps/details?id=com.gmail.dajinchu.logfrog
-  description: Log Frog was a simple puzzle game and was the first project I finished and published. Publishing a project taught me how to get from a hackathon prototype to a fleshed out, bug-free game with a tutorial and animations.
+  description:
+    Log Frog was a simple puzzle game and was the first project I finished and published. Publishing a project taught me
+    how to get from a hackathon prototype to a fleshed out, bug-free game with a tutorial and animations.
   skills:
-      - Android
-      - LibGDX
-- title: Sandbox Calculator
+    - Android
+    - LibGDX
+- title: Gesture Calculator
   image: sandboxframed.png
   color: F24E24
   github: https://github.com/dajinchu/apps-for-good
   link: https://github.com/dajinchu/apps-for-good
-  description: A friend and I made an experimental calculator that uses gestures make math easier on mobile devices. Sandbox lets users drag numbers around, lasso select, and edit multiple equations at once.
+  description:
+    A friend and I made an experimental calculator that uses gestures make math easier on mobile devices. Sandbox lets
+    users drag numbers around, lasso select, and edit multiple equations at once.
   skills:
-      - Android
-      - LibGDX
+    - Android
+    - LibGDX
 - title: EDot Calculator
   image: edot.png
   color: F58790
   github: https://github.com/dajinchu/edot-calculator
   link: https://github.com/dajinchu/edot-calculator
-  description: A friend and I worked with a special needs teacher at Worcester Public Schools to develop EDot, a handheld calculator and iOS app designed to assist people with special needs understand decimal points.
+  description:
+    A friend and I worked with a special needs teacher at Worcester Public Schools to develop EDot, a handheld
+    calculator and iOS app designed to assist people with special needs understand decimal points.
   skills:
-      - Arduino
-      - 3D Printing
-      - SolidWorks
+    - Arduino
+    - 3D Printing
+    - SolidWorks
 - title: Teaching CAD
   image: tripodCAD.png
   color: 009688
-  description: I taught the basics of Solidworks 3D modeling to elementary school kids at an inner city school in Worcester, Massachusetts.
+  description:
+    I taught the basics of Solidworks 3D modeling to elementary school kids at an inner city school in Worcester,
+    Massachusetts.
   skills:
-      - Solidworks
-      - Teaching
+    - Solidworks
+    - Teaching
