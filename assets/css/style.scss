@@ -170,8 +170,6 @@ section {
     margin-bottom: 20px;
     font-size: 1.25rem;
 }
-.sectionContent {
-}
 p{
     margin-top: 0;
     margin-bottom:20px;
@@ -186,16 +184,10 @@ p{
 }
 .companyInfoRow {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-between;
     padding-bottom: .5rem;
-    .primaryInfo{
-        @extend %boldText;
-    }
-    .secondaryInfo{
-        font-weight: 300;
-        text-align: right;
-    }
+    @extend %boldText;
 }
 
 .skillRow {

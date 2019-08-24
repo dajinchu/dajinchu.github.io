@@ -83,21 +83,13 @@
             {% for job in site.data.work %}
               <div class="jobInfo">
                 <div class="companyInfoRow">
-                  <div class="primaryInfo">
-                    {{ job.company }}
-                  </div>
-                  <div class="secondaryInfo">
-                    {{ job.location }}
-                  </div>
+                  {{ job.role }}
+                  @
+                  {{ job.company }}
                 </div>
                 {% for position in job.positions %}
                   <div class="companyInfoRow">
-                    <div class="primaryInfo">
-                      {{ position.role }}
-                    </div>
-                    <div class="secondaryInfo">
-                      {{ position.year }}
-                    </div>
+                    {{ position.year }}
                   </div>
                   <p>
                     {{ position.description }}
