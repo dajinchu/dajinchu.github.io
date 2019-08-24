@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Da-Jin Chu</title>
+    <title>Da-Jin Chu | Software Engineer</title>
     <meta name="description" content="Da-Jin Chu's personal portfolio website.">
     <meta name="author" content="Da-Jin Chu">
 
@@ -18,17 +18,17 @@
     <link rel="shortcut icon" href="favicon.ico" />
 
     <!--TODO elaborate open graph-->
-    <meta property="og:title" content="Da-Jin Chu | Portfolio">
+    <meta property="og:title" content="Da-Jin Chu | Software Engineer">
     <meta property="og:description" content="A little about me and a showcase of my personal projects.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.dajinchu.me/">
-    <meta property="og:image" content="https://www.dajinchu.me/assets/img/shot.png">
+    <meta property="og:url" content="https://dajin.dev/">
+    <meta property="og:image" content="https://dajin.dev/assets/img/shot.png">
     <meta property="og:image:width" content="2140">
     <meta property="og:image:height" content="1439">
     <meta property="og:image:type" content="image/png">
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/font.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Lora&display=swap" rel="stylesheet"> 
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-46986118-3"></script>
     <script>
@@ -46,17 +46,27 @@
 
   <body>
     <div id="topBackground"></div>
+    <div id="navbar">
+      <a class="navbar__link navbar__link--title" href="#intro">
+        Da-Jin Chu
+      </a>
+      <div class="navbar__links">
+        <a class="navbar__link navbar__link--section" href="#about">About</a>
+        <a class="navbar__link navbar__link--section" href="#work">Work</a>
+        <a class="navbar__link navbar__link--section" href="#projects">Projects</a>
+        <a class="navbar__link navbar__link--cta onlyDesktop" href="/resume.pdf">Resume</a>
+      </div>
+    </div>
     <div id="top">
-
       <div id="content">
         <!-- Intro -->
         <section id="intro">
           <h1>Hi, I'm Da-Jin.</h1>
-          <h1>I'm a student, developer, and all around geek.</h1>
+          <h1>I'm a student, software engineer, and problem solver.</h1>
         </section>
 
         <!-- About -->
-        <section>
+        <section id="about">
           <div class="sectionLabel">About Me</div>
 
           <div class="sectionContent">
@@ -66,35 +76,27 @@
         </section>
 
         <!-- Work Experience -->
-        <section>
+        <section id="experience">
           <div class="sectionLabel">Work Experience</div>
 
           <div class="sectionContent">
             {% for job in site.data.work %}
               <div class="jobInfo">
                 <div class="companyInfoRow">
-                  <div class="primaryInfo">
-                    {{ job.company }}
-                  </div>
-                  <div class="secondaryInfo">
-                    {{ job.location }}
-                  </div>
+                  {{ job.role }}
+                  @
+                  {{ job.company }}
                 </div>
                 {% for position in job.positions %}
                   <div class="companyInfoRow">
-                    <div class="primaryInfo">
-                      {{ position.role }}
-                    </div>
-                    <div class="secondaryInfo">
-                      {{ position.year }}
-                    </div>
+                    {{ position.year }}
                   </div>
                   <p>
                     {{ position.description }}
                   </p>
                   <div class="skillRow">
                     {% for skill in position.skills %}
-                      <div>{{ skill }}</div>
+                      <div class="skillBox">{{ skill }}</div>
                     {% endfor %}
                   </div>
                   <br>
@@ -105,7 +107,7 @@
         </section>
 
         <!-- Projects -->
-        <section>
+        <section id="projects">
           <div class="sectionLabel">Projects</div>
 
           <div class="sectionContent projectContainer">
@@ -131,10 +133,16 @@
           </div>
         </section>
 
-        <section class="links">
-          <a target="_blank" href="https://www.linkedin.com/in/dajinchu/">LinkedIn</a>
-          <a target="_blank" href="/resume.pdf">Resume</a>
-          <a target="_blank" href="https://github.com/dajinchu">GitHub</a>
+        <section class="footer">
+          <div class="badges">
+            <a class="socialBadge" target="_blank" rel="noopener" href="https://www.linkedin.com/in/dajinchu/">
+              <img src="/assets/img/linkedin.svg" alt="linkedin" height="22px"/>
+            </a>
+            <a class="socialBadge" target="_blank" rel="noopener" href="https://github.com/dajinchu/">
+              <img src="/assets/img/github.svg" alt="github" height="22px"/>
+            </a>
+          </div>
+          <p>Built by Da-Jin in 2019</p>
         </section>
       </div>
     </div>
