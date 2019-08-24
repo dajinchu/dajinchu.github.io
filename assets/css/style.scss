@@ -74,15 +74,6 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    .navbar__section--social {
-        display: flex;
-        align-items: center;
-    }
-    .navbar__social {
-        margin: 0px 5px;
-        height: 32px;
-        padding: 5px;
-    }
     .navbar__section--links {
         display: flex;
         justify-content: end;
@@ -181,7 +172,7 @@ section {
 }
 .sectionContent {
 }
-.sectionContent p{
+p{
     margin-top: 0;
     margin-bottom:20px;
     font-weight: 300;
@@ -290,19 +281,17 @@ section {
 }
 
 
-.links {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    padding-top:50px;
-    padding-bottom:75px;
-    a {
-        text-decoration: none;
-        text-transform: uppercase;
-        font-weight: 700;
-        color: #555;
-        &:hover{
-            color: $accentColor;
-        }
+.footer {
+    padding-top:0px;
+    padding-bottom:25px;
+    .badges {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .socialBadge {
+        margin: 0px 10px;
+        height: 32px;
+        padding: 5px;
     }
 }
