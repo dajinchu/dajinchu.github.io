@@ -10,8 +10,8 @@ $darkFontColor: #000;
 $accentColor: #D50000;
 
 
-$sans-serif: 'Open Sans', sans-serif;
-$serif: 'Source Serif Pro', serif;
+$sans-serif: 'Lato', sans-serif;
+$serif: 'Lora', serif;
 
 
 $small-card: "screen and (max-width: 840px)";
@@ -109,11 +109,12 @@ body {
     }
     .navbar__link--title {
         font-size: 24px;
+        font-weight: 700;
         line-height: normal;
     }
     .navbar__link--cta {
         padding: 0px 10px;
-        line-height: 2.5;
+        line-height: 2.2;
         border: 1px solid #c6a12a;
         border-radius: 5px;
         color: #c6a12a;
