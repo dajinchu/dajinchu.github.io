@@ -1,7 +1,23 @@
+- company: Alignable
+  location: Boston, MA
+  positions:
+    - role: Software Engineer, Co-Op
+      year: July 2019 - Present
+      description: >
+        I'm on the Member Generated Content team working to drive members of Alignable to post more content
+        and engage with the platform and with each other. I have primarily been refactoring our forum to 
+        give businesses in the same town and businesses of the same franchise a space to have discuss topics that are
+        specific to their community. I also rebuilt a page to show reviews of national brands written by our 
+        members and implemented search and filter.
+      skills:
+        - Ruby
+        - Rails
+        - React
+        - PostgreSQL
 - company: RSA Security
   location: Bedford, MA
   positions:
-    - role: Sales Engineering Intern
+    - role: Sales Engineer, Intern
       year: Summer 2018, 2019
       description: >
         I worked as a software engineer to provide our sales engineers with the tools to sell more effectively. My
@@ -22,7 +38,7 @@
 - company: MITRE Corporation
   location: Bedford, MA
   positions:
-    - role: Prototyping and Systems Engineering Intern
+    - role: Prototyping and Systems Engineer, Intern
       year: Summer 2017
       description: >
         I worked in GPS modernization, a project funded by the U.S. Air Force to provide tools to enable the next
@@ -39,7 +55,7 @@
         - HTML
         - MySQL
         - AngularJS
-    - role: Summer Software Intern
+    - role: Software Engineer, Intern
       year: Summer 2016
       description: >
         I worked in Open Health Services, a department contracted by the Centers for Medicare and Medicaid Services to
