@@ -76,15 +76,10 @@ body {
     @media screen and (min-width: 720px) {
         padding: 15px 20px;
     }
-
-    .navbar__section--links {
+    .navbar__links {
+        display: flex;
         justify-content: end;
         align-items: center;
-        flex-grow: 1;
-        display: none;
-        @media screen and (min-width: 580px) {
-            display: flex;
-        }
     }
     .navbar__link {
         display: block;
@@ -105,12 +100,18 @@ body {
         font-weight: 700;
         line-height: normal;
     }
+    .navbar__link--section {
+        display: none;
+        @media screen and (min-width: 580px) {
+            display: block;
+        }
+    }
     .navbar__link--cta {
         padding: 0px 10px;
         line-height: 2.2;
-        border: 1px solid #c6a12a;
+        border: 1px solid #b99728;
         border-radius: 5px;
-        color: #c6a12a;
+        color: #b99728;
         display: block;
     }
 }
