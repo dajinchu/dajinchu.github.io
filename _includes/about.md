@@ -1,7 +1,7 @@
-I’m a third-year student at Northeastern University studying computer science, driven by solving complex problems and building useful software with large scale impacts. I'm currently a Co-Op as a full-stack software engineer at Alignable.
+I’m a student at Northeastern, graduating December 2020. I'm driven by solving complex problems and building useful software with large scale impacts. I've done  internships at GitHub, Alignable, RSA, and MITRE, and am always looking for interesting work to do.
 
 
-On the side, I’ve been spending a lot of my time as Technical Director of Sandbox, a software consulting club with 25 members building custom software for researchers. It has been an amazing combination of interesting software problems, high-impact work, and a foray into managing organizations.
+On the side, I’ve been spending a lot of my time with Sandbox, the software consultancy I helped found. It has been an amazing combination of interesting software problems, high-impact work, and a foray into management, product, and design for me.
 
 
 Outside of programming, my interests include photography, Vulfpeck, and breakfast.
